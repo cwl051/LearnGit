@@ -45,3 +45,4 @@ $ git rm --cached index.html 	//removes index.html from the index
 $ git push		// Push to remote repository fi github
 $ git pull		// get the latest versions from the remote repository
 			// to your local repository
+$ git log		//show all commits
