@@ -1,0 +1,15 @@
+"""
+file: file1.txt
+date: 30.10.2017
+time: 20:49
+author: cwl
+"""
+
+Git Basics Episode 3, get going with Git
+
+$ git init project1 	//Creates folder project1 and subfolder .git
+$ cd project1		//change directory to project1
+
+create file1.txt
+
+$git add file1.txt
