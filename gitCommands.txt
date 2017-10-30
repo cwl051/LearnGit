@@ -7,6 +7,10 @@ author: cwl
 
 Git Basics Episode 3, get going with Git
 
+$ sudo apt-get install git	//install git on linux
+
+$ git --version			//check if git is running 
+
 $ git config --global user.name "Christophe Willaert"
 $ git config --global user.email "christophe.willaert@pandora.be"
 
