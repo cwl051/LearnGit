@@ -12,4 +12,7 @@ $ cd project1		//change directory to project1
 
 create file1.txt
 
-$git add file1.txt
+$ git add file1.txt	//Put file1.txt on stage for commiting
+$ git commit -m "My first commit"	//Commits the file1.txt
+
+$ git status		//shows the current status
