@@ -1,0 +1,3 @@
+Dit is file2.txt created with nano on ubuntu 16.04LTS 
+running on a Sony Vaio laptop
+
