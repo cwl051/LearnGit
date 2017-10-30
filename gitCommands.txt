@@ -31,7 +31,14 @@ $ git commit -m "My first commit"
 			//Commits the file1.txt
 			//Commit changes in index
 
+$ touch .gitignore	//create textfile with files to be ignored
+$ nano .gitignore
+$ vim .gitignore
+$ gedit .gitignore
+$ atom .gitignore
+
 $ git status		//shows the current status of the current working tree
+$ git status --ignored	//shows the ignored file
 
 $ git rm --cached index.html 	//removes index.html from the index
 
