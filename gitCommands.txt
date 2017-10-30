@@ -9,11 +9,15 @@ Git Basics Episode 3, get going with Git
 
 $ sudo apt-get install git	//install git on linux
 
-$ git --version			//check if git is running 
+$ git --version			//check if git is running
 
 $ git config --global user.name "Christophe Willaert"
 $ git config --global user.email "christophe.willaert@pandora.be"
+$ git config --list			//show all git settings
 
+//getting help
+$ git help config
+$ git config --help
 
 $ git init project1 	//Creates folder project1 and subfolder .git
 $ git init		//Creates .git folder at current location
@@ -28,6 +32,8 @@ $ git commit -m "My first commit"
 			//Commit changes in index
 
 $ git status		//shows the current status of the current working tree
+
+$ git rm --cached index.html 	//removes index.html from the index
 
 $ git push		// Push to remote repository fi github
 $ git pull		// get the latest versions from the remote repository
